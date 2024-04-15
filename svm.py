@@ -5,7 +5,7 @@ import streamlit as st
 import numpy as np
 import pickle
 from PIL import Image, ImageDraw
-from sklearn.preprocessing import StandardScaler
+#from sklearn.preprocessing import StandardScaler
 
 filename = 'svm_model.sav'
 
