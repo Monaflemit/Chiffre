@@ -7,14 +7,18 @@ import sklearn
 from sklearn import datasets, metrics, svm
 from sklearn.model_selection import train_test_split
 import pickle
+import joblib
 from PIL import Image, ImageDraw
 #from sklearn.preprocessing import StandardScaler
 
 filename = 'svm_model.sav'
 
 # Chargez le modèle à partir du fichier
+#with open(filename, 'rb') as file:
+#    clf = pickle.load(file)
+
 with open(filename, 'rb') as file:
-    clf = pickle.load(file)
+    clf = joblib.load(file)
 
 st.title("Dessinez un chiffre")
 
