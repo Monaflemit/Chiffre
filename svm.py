@@ -3,6 +3,7 @@
 
 import streamlit as st
 import numpy as np
+import sklearn
 import pickle
 from PIL import Image, ImageDraw
 #from sklearn.preprocessing import StandardScaler
