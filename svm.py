@@ -4,6 +4,8 @@
 import streamlit as st
 import numpy as np
 import sklearn
+from sklearn import datasets, metrics, svm
+from sklearn.model_selection import train_test_split
 import pickle
 from PIL import Image, ImageDraw
 #from sklearn.preprocessing import StandardScaler
